@@ -1,8 +1,3 @@
-# https://play.google.com/books/reader?id=LusoDwAAQBAJ&pg=GBS.PT64.w.3.0.5_38&hl=ko&num=19&printsec=frontcover
-
-arr1 = ["Tom", "Jerry", "Mike"]
-
-
 def func(arr: list[str]):
     s = set()
 
@@ -12,5 +7,7 @@ def func(arr: list[str]):
             s.add(f"{arr[i]} - {arr[j]}")
 
     print(s)
+    
+arr1 = ["Tom", "Jerry", "Mike"]
 
 func(arr1)
